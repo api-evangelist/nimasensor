@@ -1,0 +1,22 @@
+generated: '2026-07-20'
+method: searched
+source: https://nimanow.com/.well-known/
+host: https://nimanow.com
+note: >-
+  nimanow.com is a Shopify-hosted storefront. Shopify serves platform-level OIDC / OAuth2
+  discovery for its Customer Account API at the store domain; the authorization/token endpoints
+  live on account.nimanow.com. These are Shopify platform surfaces, not a first-party NIMA
+  developer API. The historical nimasensor.com domain no longer resolves.
+documents:
+- path: /.well-known/openid-configuration
+  status: 200
+  file: nimasensor-openid-configuration.json
+- path: /.well-known/oauth-authorization-server
+  status: 200
+  file: nimasensor-oauth-authorization-server.json
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404

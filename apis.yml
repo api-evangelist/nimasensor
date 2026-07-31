@@ -1,8 +1,29 @@
 aid: nimasensor
 name: NimaSensor
-description: NimaSensor is a company surfaced as a portfolio company of uncork-capital and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  NIMA (originally 6SensorLabs, founded by MIT alumni Shireen Yates and Scott Sundvor) makes a
+  portable, consumer-use gluten detection sensor for people living with celiac disease and gluten
+  sensitivity. A pea-sized food sample is loaded into a single-use capsule, inserted into the
+  handheld NIMA Sensor, and returns a clear result in about three minutes, detecting gluten down to
+  10 ppm. The product relaunched in 2025-2026 with investment from RA Capital Management, pairing a
+  next-generation sensor with newly engineered test capsules and the NIMA Now app. NIMA is a
+  consumer hardware and e-commerce company (storefront hosted on Shopify), not a developer-API
+  provider - it exposes no first-party public developer API. It is tracked in the API Evangelist
+  network as a portfolio company of Uncork Capital.
 url: https://raw.githubusercontent.com/api-evangelist/nimasensor/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: self-serve
+  trial: false
+  try_now: false
+  public: false
+  label: Self-serve signup
+  confidence: medium
+  source:
+  - authentication
+  generated: '2026-07-22'
+  method: derived
+image: https://nimanow.com/cdn/shop/files/BMC00138-Edit-Edit_6c2e82b0-d6ef-401f-87c0-d8e28987afae.jpg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,12 +32,47 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Health
+- Consumer Hardware
+- Food Safety
+- Gluten
+- Celiac
+- E-Commerce
+- IoT
 apis: []
+common:
+- type: DomainSecurity
+  url: security/nimasensor-domain-security.yml
+- type: Website
+  url: https://nimanow.com
+- type: Blog
+  url: https://nimanow.com/blogs/blog
+- type: Support
+  url: https://nimanow.com/pages/faqs
+- type: Login
+  url: https://nimanow.com/account/login
+- type: TermsOfService
+  url: https://nimanow.com/policies/terms-of-service
+- type: PrivacyPolicy
+  url: https://nimanow.com/policies/privacy-policy
+- type: WellKnown
+  url: well-known/nimasensor-well-known.yml
+- type: LLMsTxt
+  url: llms/nimasensor-llms.txt
+- type: Authentication
+  url: authentication/nimasensor-authentication.yml
+- type: OAuthScopes
+  url: scopes/nimasensor-scopes.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 7
+  pass: local-v1

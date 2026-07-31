@@ -1,0 +1,32 @@
+generated: '2026-07-20'
+method: searched
+source: https://nimanow.com/.well-known/openid-configuration
+docs: https://nimanow.com/.well-known/openid-configuration
+note: >-
+  OAuth2/OIDC scopes advertised by Shopify's Customer Account API for the NIMA storefront
+  (scopes_supported in the store's OIDC discovery document). Platform-level, not a first-party
+  NIMA developer API.
+schemes:
+- name: ShopifyCustomerAccountOIDC
+  source: well-known/nimasensor-openid-configuration.json
+  flows:
+  - flow: authorizationCode
+    authorizationUrl: https://account.nimanow.com/authentication/oauth/authorize
+    tokenUrl: https://account.nimanow.com/authentication/oauth/token
+scopes:
+- scope: openid
+  description: OpenID Connect authentication of the storefront customer.
+  flows:
+  - authorizationCode
+- scope: email
+  description: Access to the authenticated customer's email address.
+  flows:
+  - authorizationCode
+- scope: customer-account-api:full
+  description: Full access to the Shopify Customer Account API for the signed-in customer.
+  flows:
+  - authorizationCode
+- scope: customer-account-mcp-api:full
+  description: Full access to the Shopify Customer Account MCP API for the signed-in customer.
+  flows:
+  - authorizationCode

@@ -1,0 +1,38 @@
+generated: '2026-07-20'
+method: searched
+source: https://nimanow.com/.well-known/openid-configuration
+note: >-
+  Auth surface is Shopify's Customer Account API (platform-level), discovered from the store's
+  OIDC configuration - not a first-party NIMA developer API. Enables end-customer login to the
+  NIMA storefront. Included because it is a genuine, publicly discoverable authentication surface
+  on the provider domain.
+summary:
+  types:
+  - oauth2
+  - openIdConnect
+  oauth2_flows:
+  - authorizationCode
+  issuer: https://shopify.com/authentication/61165174846
+schemes:
+- name: ShopifyCustomerAccountOIDC
+  type: openIdConnect
+  openIdConnectUrl: https://nimanow.com/.well-known/openid-configuration
+  issuer: https://shopify.com/authentication/61165174846
+  authorizationUrl: https://account.nimanow.com/authentication/oauth/authorize
+  tokenUrl: https://account.nimanow.com/authentication/oauth/token
+  end_session_endpoint: https://account.nimanow.com/authentication/logout
+  jwks_uri: https://account.nimanow.com/authentication/.well-known/jwks.json
+  grant_types:
+  - authorization_code
+  - refresh_token
+  - urn:ietf:params:oauth:grant-type:jwt-bearer
+  response_types:
+  - code
+  token_endpoint_auth_methods:
+  - client_secret_basic
+  pkce:
+  - S256
+  id_token_signing_alg:
+  - RS256
+  sources:
+  - well-known/nimasensor-openid-configuration.json

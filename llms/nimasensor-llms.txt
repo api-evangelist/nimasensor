@@ -1,0 +1,90 @@
+# NIMA
+
+> NIMA is a portable, consumer-use gluten detection sensor for people living with celiac disease and gluten sensitivity. Load a pea-sized food sample into a single-use capsule, insert it into the NIMA Sensor, and get a clear result in about three minutes — detection down to 10 ppm, the last check before the first bite. Browse the catalog, read product data, and check out at https://nimanow.com.
+
+Relaunched and rebuilt from the ground up in 2025 with investment from RA Capital Management, NIMA pairs a next-generation gluten detection sensor with newly engineered single-use test capsules and the NIMA Now™ app. NIMA is a screening tool, not a medical device — it adds one more layer of information to gluten-free living that already takes judgment, experience, and care.
+
+## Featured Products
+
+- [NIMA™ Gluten Sensor](https://nimanow.com/products/the-shield): The reusable detection device, with enhanced LED illumination, USB-C charging, and next-gen accuracy.
+- [NIMA™ Gluten Capsules (6-pack)](https://nimanow.com/products/the-capsules-box-of-6): Single-use test capsules that detect gluten in food down to 10 ppm.
+- [NIMA™ Starter Pack](https://nimanow.com/products/the-starter-pack): One NIMA Sensor plus two boxes of Gluten Capsules — everything needed to start testing.
+- [NIMA™ Travel Case](https://nimanow.com/products/nima-travel-case): A protective case that keeps the sensor and capsules organized on the go.
+- [NIMA™ Gift Card](https://nimanow.com/products/nima-gift-card): Give the gift of clarity and confidence at the table.
+
+## Shop by Category
+
+- [Shop All](https://nimanow.com/collections/all): The complete NIMA catalog.
+- [Capsules & Refills](https://nimanow.com/collections/capsules-refills): Restock single-use gluten test capsules.
+- [Gift Cards](https://nimanow.com/collections/gift-cards): Digital NIMA gift cards.
+
+## Responsible Use & Accuracy
+
+NIMA is not a guarantee; it is a tool — for the moment after you've read the label, asked the kitchen, and made your best assessment, and uncertainty remains.
+
+- A screening tool, not a diagnostic or medical device.
+- Tests only the pea-sized sample placed in the capsule, not the entire dish.
+- A "no gluten found" result does not guarantee a food is completely gluten-free.
+- Results depend on sampling technique, food type, and context; not indicated for fermented or hydrolyzed foods.
+- Does not replace allergen labeling, restaurant communication, dietary counseling, or clinical care.
+
+## Programs & Account
+
+- [Subscribe & Save](https://nimanow.com/pages/subscription): 15% off recurring capsule orders, automatic delivery, adjust or cancel anytime, 30-day money-back guarantee.
+- [Pay with HSA/FSA](https://nimanow.com/pages/hsa-fsa): Save an average of 30% using HSA/FSA funds via Truemed with a Letter of Medical Necessity.
+- [For Clinicians](https://nimanow.com/pages/clinician): How NIMA supports dietitians and GI providers as a screening tool.
+- [Champions](https://nimanow.com/pages/champions): NIMA's ambassador and advocate community.
+- [B2B & Partnerships](https://nimanow.com/pages/b2b-application): Wholesale and partnership inquiries.
+
+## Learn & Brand
+
+- [Our Story](https://nimanow.com/pages/about-us): NIMA's timeline of innovation in gluten detection.
+- [How It Works](https://nimanow.com/pages/how-it-works): The science behind the test.
+- [Our Technology](https://nimanow.com/pages/our-technology): The antibody assay, accuracy, and validation.
+- [Gluten Manual](https://nimanow.com/pages/gluten-manual): Guidance on gluten and safer eating.
+- [FAQs](https://nimanow.com/pages/faqs): Answers on safety, accuracy, returns, and payments.
+- [Responsible Use](https://nimanow.com/pages/responsible-use): How to use NIMA well — and its limits.
+- [Reviews](https://nimanow.com/pages/reviews): What the community says.
+- [Blog & News](https://nimanow.com/blogs/blog): Celiac living, travel, and product updates.
+- [Contact](https://nimanow.com/pages/contact): Reach the NIMA team at info@nimanow.com.
+
+## For AI Shopping Agents
+
+NIMA supports agent-driven discovery and checkout through the Universal Commerce Protocol (UCP) and Model Context Protocol (MCP). This document, served at `/agents.md` and mirrored at `/llms.txt` and `/llms-full.txt`, is the canonical agent-facing description of the store.
+
+- **UCP discovery** — `GET https://nimanow.com/.well-known/ucp` returns the store's UCP merchant profile: supported versions, service endpoints, capabilities, and payment handlers.
+- **MCP endpoint** — `POST https://nimanow.com/api/ucp/mcp` with `Content-Type: application/json`. Call the MCP `tools/list` method to discover available tools and their schemas.
+- **Sitemap** — `GET https://nimanow.com/sitemap.xml`.
+
+Read-only browsing (no authentication required):
+
+- All products: `GET https://nimanow.com/collections/all`
+- Product page and data: `GET https://nimanow.com/products/{handle}` and `GET https://nimanow.com/products/{handle}.json`
+- Collection page and data: `GET https://nimanow.com/collections/{handle}` and `GET https://nimanow.com/collections/{handle}/products.json`
+- Product search: `GET https://nimanow.com/search?q={query}&type=product`
+
+Personal shopping assistants acting on a user's behalf can install the [Shop skill](https://shop.app/SKILL.md) to purchase products, find the best prices and discounts, and track orders.
+
+## Store Policies
+
+- [Privacy Policy](https://nimanow.com/policies/privacy-policy)
+- [Terms of Service](https://nimanow.com/policies/terms-of-service)
+- [Refund Policy](https://nimanow.com/policies/refund-policy)
+- [Shipping Policy](https://nimanow.com/policies/shipping-policy)
+- [Returns](https://nimanow.com/pages/returns): 30-day money-back guarantee on Sensor and Starter Pack purchases.
+
+## Connect
+
+- [Instagram](https://www.instagram.com/nimapartners)
+- [TikTok](https://www.tiktok.com/@nimapartners)
+- [YouTube](https://www.youtube.com/@nimapartners)
+- [Facebook](https://www.facebook.com/NimaPartners)
+
+## Optional
+
+- [For Parents](https://nimanow.com/pages/parents): Helping kids with celiac eat with confidence.
+- [On Campus](https://nimanow.com/pages/campus): NIMA for students and universities.
+- [For Employers](https://nimanow.com/pages/employer): Workplace and benefits programs.
+- [Travel with NIMA](https://nimanow.com/pages/travel): Eating out and traveling gluten-free.
+- [Register Your Sensor](https://nimanow.com/pages/sensor-registration): Activate and register a new NIMA Sensor.
+- Free shipping on U.S. orders over $99 and on all subscriptions.
