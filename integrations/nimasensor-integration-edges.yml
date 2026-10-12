@@ -1,0 +1,16 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/nimasensor/integrations
+- https://n8n.io/integrations/nimasensor/
+- https://composio.dev/toolkits/nimasensor
+- https://monid.ai/tools/nimasensor
+checked:
+- https://composio.dev/toolkits/nimasensor
+- https://monid.ai/tools/nimasensor
+- https://n8n.io/integrations/nimasensor/
+- https://zapier.com/apps/nimasensor/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
